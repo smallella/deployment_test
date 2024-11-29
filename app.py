@@ -29,7 +29,6 @@ fig = px.bar(
 fig.update_layout(xaxis=dict(tickmode='linear', tick0=1, dtick=1))
 
 # Create a app
-app = Dash()
 app.layout = html.Div(children=[
     html.H1("Interactive Sales Dashboard"),
     html.H4("Select Region"),
